@@ -71,6 +71,4 @@ PRODUCT_PACKAGES += \
     libexynoscamera_bayergdc_plugin \
     libexynoscamera_fakemultiframe \
     libexynoscamera_vpl_plugin \
-    libsec-ril-dsds \
-    libsec-ril \
     libwrappergps

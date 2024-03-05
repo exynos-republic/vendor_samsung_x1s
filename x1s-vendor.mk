@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/x1s
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/x1s/proprietary/vendor/etc/LVACFS_Configuration.txt:$(TARGET_COPY_OUT_VENDOR)/etc/LVACFS_Configuration.txt \
-    vendor/samsung/x1s/proprietary/vendor/etc/LVACFS_ControlParams.txt:$(TARGET_COPY_OUT_VENDOR)/etc/LVACFS_ControlParams.txt \
     vendor/samsung/x1s/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/x1s/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/x1s/proprietary/vendor/etc/nfc/sec_s3nsen4_hwreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nsen4_hwreg.bin \
@@ -67,11 +65,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/x1s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-53626f786476:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-53626f786476
 
 PRODUCT_PACKAGES += \
-    lib_SamsungRec_08020 \
-    lib_lvacfs \
-    librecordalive \
     libswdap \
-    vendor.samsung.hardware.bluetooth.a2dp@1.0 \
     camera.exynos990 \
     libexynoscamera3 \
     libexynoscamera_bayergdc_plugin \
